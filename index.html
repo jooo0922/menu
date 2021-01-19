@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <!-- styles -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- javascript -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <section class="menu">
+    <!-- title -->
+    <div class="title">
+      <h2>our menu</h2>
+      <div class="underline"></div>
+    </div>
+    <!-- filter buttons -->
+    <div class="btn-container">
+      <!-- 
+      버튼에 DOM으로 접근하는 것이 아닌, category가 뭐가 있는지에 따라 버튼이 실시간으로 그에 맞춰서
+      생성될 수 있게 하려고 기존의 버튼을 comment 처리함.
+      <button class="filter-btn" type="button" data-id="all">all</button>
+      <button class="filter-btn" type="button" data-id="breakfast">breakfast</button>
+      <button class="filter-btn" type="button" data-id="lunch">lunch</button>
+      <button class="filter-btn" type="button" data-id="shakes">shakes</button> -->
+    </div>
+    <!-- menu items -->
+    <div class="section-center">
+      <!-- single item -->
+      <!-- 얘는 js에서 array에 따라 생성이 가능한거니까 comment처리해도 무방 
+        <article class="menu-item">
+        <img src="./menu-item.jpeg" class="photo" alt="menu item">
+        <div class="item-info">
+          <header>
+            <h4>buttermilk pancakes</h4>
+            <h4 class="price">$15</h4>
+          </header>
+          <p class="item-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Consequatur voluptatum earum maxime dolorem quia natus, nobis eum vitae eos enim.
+          </p>
+        </div>
+      </article> -->
+      <!-- end of single item (코멘트를 이용한 구분법)-->
+    </div>
+  </section>
+</body>
+</html>
